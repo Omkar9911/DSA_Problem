@@ -70,5 +70,4 @@ public class q1_trapped_rainwater
    
     System.out.println(trappedRainwater(height));
   }
-  
 }
