@@ -30,17 +30,17 @@ public class q4_contains_dublicate
   {
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("Enter size of an array = ");
+   log.info("Enter size of an array = ");
     int n = sc.nextInt();
     int number[] = new int[n];
-    System.out.println("Enter no of element = ");
+   log.info("Enter no of element = ");
 
     for(int i=0; i<n; i++)
     {
       number[i]=sc.nextInt();
     }
 
-    System.out.println("You Entered no in an array is :");
+    log.info("You Entered no in an array is :");
     // print array
     for(int i=0; i<n; i++)
     {
@@ -50,11 +50,11 @@ public class q4_contains_dublicate
    int result = twice(number);
    if(result == 1)
    {
-    System.out.println("True");
+    log.info("True");
    }
    else
    {
-    System.out.println("False");
+    log.info("False");
    } 
   }
 }
